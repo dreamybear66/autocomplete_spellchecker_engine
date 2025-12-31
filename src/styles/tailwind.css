@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: #020617;
+    --color-foreground: #f8fafc;
+    --color-primary: #00d9ff;
+    --color-primary-foreground: #020617;
+    --color-secondary: #6366f1;
+    --color-secondary-foreground: #f8fafc;
+    --color-accent: #10b981;
+    --color-accent-foreground: #f8fafc;
+    --color-muted: #1e293b;
+    --color-muted-foreground: #94a3b8;
+    --color-border: rgba(148, 163, 184, 0.2);
+    --color-input: #1e293b;
+    --color-ring: #00d9ff;
+    --color-popover: #1e293b;
+    --color-popover-foreground: #f8fafc;
+    --color-card: #1e293b;
+    --color-card-foreground: #f8fafc;
+    --color-destructive: #ef4444;
+    --color-destructive-foreground: #f8fafc;
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+    --radius: 0.75rem;
+  }
+}
+
+@layer components {
+  .glassmorphic {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-glassmorphic overflow-hidden;
+  }
+}
