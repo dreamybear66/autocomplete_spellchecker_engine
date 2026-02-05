@@ -1,0 +1,28 @@
+// Sample words for Trie demonstration
+export const sampleWords = [
+    'algorithm',
+    'algorithms',
+    'algorithmic',
+    'data',
+    'database',
+    'datastructure',
+    'tree',
+    'trie',
+    'graph',
+    'array',
+    'stack',
+    'queue',
+    'heap',
+    'hash',
+    'hashtable',
+    'search',
+    'sort',
+    'binary',
+    'linear',
+    'dynamic',
+    'greedy',
+    'recursion',
+    'iteration',
+    'complexity',
+    'optimization'
+];
